@@ -1,0 +1,26 @@
+.container {
+  margin: 10px 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.logo__block {
+  width: 170px;
+  text-transform: uppercase;
+}
+.logo__title {
+  font-weight: 500;
+}
+.logo__text {
+  font-size: 10px;
+}
+.nav__list {
+  font-weight: 500;
+  width: 120px;
+  height: 30px;
+}
+.icon__block{
+    width: 70px;
+    display: flex;
+}
+
