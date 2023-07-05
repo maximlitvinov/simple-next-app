@@ -31,16 +31,13 @@ export function Nav() {
         <ul className="flex justify-end flex-wrap">
           {navigation.map((el: string, index: number) => (
             <li className={style.nav__list} key={index}>
-                <Link className={style.icon__block} href={`/${el.toLocaleLowerCase()}`}>
-                  <Image
-                    className={style.icons}
-                    src={icons[index]}
-                    alt={el}
-    
-              
-                  />
-                  {el}
-                </Link>
+              <Link
+                className={style.icon__block}
+                href={`/${el.toLocaleLowerCase()}`}
+              >
+                <Image className={style.icons} src={icons[index]} alt={el} />
+                {el}
+              </Link>
             </li>
           ))}
         </ul>

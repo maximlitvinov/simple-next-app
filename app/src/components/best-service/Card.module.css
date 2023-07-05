@@ -1,0 +1,25 @@
+.card__content {
+  margin-top: 40px;
+  margin-left: 25px;
+  width: 400px;
+  height: 151px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 10px 40px 0px #2d3d8a33;
+  border-radius: 10px;
+}
+
+.card__img {
+  margin-left: 20px;
+}
+
+.card__text {
+  font-size: 16px;
+  color: #6c6c6c;
+}
+.card__title {
+  color: #3a3a44;
+  font-weight: 500;
+  font-size: 20px;
+}

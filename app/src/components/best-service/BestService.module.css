@@ -1,0 +1,25 @@
+.container {
+  width: 1400px;
+}
+.wrapper {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.title {
+  color: #3a3a44;
+  font-weight: 600;
+  font-size: 30px;
+}
+.title span {
+  font-weight: 500;
+  font-size: 30px;
+  color: #2d3d8a;
+}
+.card__container {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+}
