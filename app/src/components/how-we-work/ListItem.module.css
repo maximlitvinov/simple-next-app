@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  max-width: 1400px;
+}
+
+.right__section__wrapper {
+  width: 350px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Кружок с цифрой*/
+.circle {
+  position: relative;
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #5d70d6;
+}
+
+/*vertical line*/
+.circle:after {
+  content: "";
+  background-color: #5d70d6;
+  position: absolute;
+  top: 50px;
+  left: 25px;
+  height: 60px;
+  width: 4px;
+}
+
+
+/*Блок текста в списке*/
+.text__block {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+}
+
+.text__block__title {
+  font-weight: 500;
+  font-size: 20px;
+}
+.text__block__main__text {
+  font-size: 16px;
+  color: #D2D2D2;
+}
