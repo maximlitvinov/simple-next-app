@@ -47,6 +47,7 @@ function HowWeWork() {
           <h3 className={style.title}>How we work</h3>
           {dataOfList.map((el) => (
             <ListItem
+            key={el.circle}
               circle={el.circle}
               title={el.title}
               description={el.description}
